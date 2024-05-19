@@ -1,0 +1,295 @@
+.collection-wrap-product {
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.collection-wrap-product .collection-wrap-product-header .section-title-all {
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+.section-title-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    
+}
+.section-title-all h2 {
+    position: relative;
+}
+.section-title-all h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.KcXmcC {
+    min-height: 100vh;
+}
+.fiCAD6 {
+    display: flex;
+    margin-top: 1.25rem;
+}
+.container-shoppe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.shopee-filter-panel {
+    flex: 0 0 11.875rem;
+    margin: 0 1.25rem 1.25rem 0;
+    min-width: 0;
+}
+.shopee-search-filter-status {
+    align-items: center;
+    color: rgba(0, 0, 0, .8);
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 1.875rem;
+    justify-content: flex-start;
+    text-transform: uppercase;
+}
+.shopee-search-filter-status__text {
+    flex: 1;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.shopee-search-filter-status__text > h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.shopee-filter-group {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 1.25rem 0 0;
+    padding: 0 0 1.25rem;
+}
+.shopee-filter-group__header {
+    font-weight: 500;
+    margin-bottom: .625rem;
+}
+.shopee-filter-group .shopee-filter {
+    align-items: flex-start;
+    padding: .25rem 0;
+}
+.shopee-checkbox-filter {
+    align-items: flex-start;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.shopee-checkbox-filter .shopee-checkbox {
+    overflow: hidden;
+}
+.shopee-checkbox {
+    align-items: center;
+    align-items: flex-start;
+    color: rgba(0, 0, 0, .8);
+    cursor: pointer;
+    display: flex;
+    font-size: .875rem;
+    padding: .25rem 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.shopee-checkbox__box {
+    margin-right: .625rem;
+    position: relative;
+}
+
+
+.tabs.tabs-main {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.tabs.tabs-main .tabs-scroll {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.home-product .h-title {
+    margin-bottom: 24px;
+}
+.tabs.tabs-main .tabs-scroll-item.active {
+    background: #333;
+    color: #fff;
+}
+.tabs.tabs-main .tabs-scroll-item {
+    cursor: pointer;
+    padding: 8px 24px;
+    background: 0 0;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 48px;
+    font-weight: 600;
+    transition: .4s cubic-bezier(.5, 0, 0, 1.25);
+}
+.tabs.tabs-main .tabs-scroll-item:hover {
+    background: #333;
+    color: #fff;
+    transition: .4s cubic-bezier(.5, 0, 0, 1.25);
+}
+.tabs-panel-item.active {
+    display: block;
+}
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-decoration: none;
+    overflow: hidden;
+}
+.card-img {
+    aspect-ratio: 278 / 314;
+    overflow: hidden;
+    border-radius: 8px;
+    display: -webkit-box;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.card-img .swiper-container {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.card:hover:not(.card.not-thumb) .btn-main {
+    transform: translate(-50%, 0);
+    transition: transform .4s cubic-bezier(.5, 0, 0, 1.25);
+}
+.card-img .btn-main {
+    text-decoration: none;
+    position: absolute;
+    bottom: 16px;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%, calc(100% + 32px));
+    transition: transform .4s cubic-bezier(.5, 0, 0, 1.25);
+}
+.btn-main {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 40px;
+    outline: 0;
+    border: 1px solid;
+    border-color: #333;
+    cursor: pointer;
+    transition: all .4s cubic-bezier(.5, 0, 0, 1.25);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    width: -moz-max-content;
+    width: max-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    gap: 8px;
+    position: relative;
+    overflow: hidden;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card:hover:not(.card.not-thumb) .card-thumb {
+    opacity: 1;
+    transform: translateY(0);
+}
+.card-thumb {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    width: 100%;
+    padding: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(calc(-100% - 16px));
+    opacity: 0;
+    transition: .4s cubic-bezier(.5, 0, 0, 1.25);
+}
+.card-thumb-item.active {
+    outline: 1px solid #333;
+}
+.card-thumb-item {
+    aspect-ratio: 1;
+    height: 48px;
+    width: 48px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 1;
+    flex-shrink: 0;
+}
+.card:hover:not(.card.not-thumb) .card-content-box {
+    transition: transform .4s cubic-bezier(.5, 0, 0, 1.25);
+    transform: translateY(64px);
+}
+.card-content-box {
+    display: grid;
+    gap: 8px;
+    transition: .4s cubic-bezier(.5, 0, 0, 1.25);
+}
+.card-content-box .title{
+    line-height: 22px;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-content .price {
+    display: flex;
+    -moz-column-gap: 14px;
+    column-gap: 14px;
+    row-gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.price {
+    font-weight: 700;
+}
